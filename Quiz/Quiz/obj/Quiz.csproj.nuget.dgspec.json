@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\Quiz.csproj": {}
+    "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quiz\\Quiz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj": {
+    "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj",
+        "projectUniqueName": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj",
         "projectName": "quizLib",
-        "projectPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj",
-        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\obj\\",
+        "projectPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj",
+        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\libs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,17 +65,20 @@
         }
       }
     },
-    "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\Quiz.csproj": {
+    "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quiz\\Quiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\Quiz.csproj",
+        "projectUniqueName": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quiz\\Quiz.csproj",
         "projectName": "Quiz",
-        "projectPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\Quiz.csproj",
-        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\obj\\",
+        "projectPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quiz\\Quiz.csproj",
+        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quiz\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,14 +86,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\libs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj": {
-                "projectPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj"
+              "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj": {
+                "projectPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj"
               }
             }
           }
@@ -95,6 +105,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

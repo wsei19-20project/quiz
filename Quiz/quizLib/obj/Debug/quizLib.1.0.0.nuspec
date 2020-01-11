@@ -8,10 +8,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Package Description</description>
     <dependencies>
-      <group targetFramework=".NETCoreApp3.0" />
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\camil\Documents\GitHub\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.dll" target="lib\netcoreapp3.0\quizLib.dll" />
+    <file src="C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.dll" target="lib\netcoreapp3.0\quizLib.dll" />
   </files>
 </package>
