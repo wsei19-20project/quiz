@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Quiz/1.0.0": {
+        "dependencies": {
+          "quizLib": "1.0.0"
+        },
+        "runtime": {
+          "Quiz.dll": {}
+        }
+      },
+      "quizLib/1.0.0": {
+        "runtime": {
+          "quizLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Quiz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "quizLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\Quiz.exe
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\Quiz.deps.json
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\Quiz.runtimeconfig.json
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\Quiz.runtimeconfig.dev.json
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\Quiz.dll
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\Quiz.pdb
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\obj\Debug\netcoreapp3.0\Quiz.csprojAssemblyReference.cache
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\obj\Debug\netcoreapp3.0\Quiz.AssemblyInfoInputs.cache
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\obj\Debug\netcoreapp3.0\Quiz.AssemblyInfo.cs
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\obj\Debug\netcoreapp3.0\Quiz.dll
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\obj\Debug\netcoreapp3.0\Quiz.pdb
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\quizLib.dll
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\quizLib.pdb
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\obj\Debug\netcoreapp3.0\Quiz.csproj.CopyComplete

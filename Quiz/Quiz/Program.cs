@@ -1,4 +1,5 @@
-﻿using System;
+﻿using quizLib;
+using System;
 
 namespace Quiz
 {
@@ -6,7 +7,7 @@ namespace Quiz
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Quiz!");
+            QuizLib1.quizInfo();
         }
     }
 }

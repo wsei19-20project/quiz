@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>quizLib</id>
+    <version>1.0.0</version>
+    <authors>Arek Giemza, Kamil Florek</authors>
+    <owners>Arek Giemza, Kamil Florek</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\camil\Documents\GitHub\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.dll" target="lib\netcoreapp3.0\quizLib.dll" />
+  </files>
+</package>

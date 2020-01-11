@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
-      "quizLib/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
-        "compile": {
-          "bin/placeholder/quizLib.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/quizLib.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.0": {}
   },
-  "libraries": {
-    "quizLib/1.0.0": {
-      "type": "project",
-      "path": "../quizLib/quizLib.csproj",
-      "msbuildProject": "../quizLib/quizLib.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": [
-      "quizLib >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
     "C:\\Users\\camil\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\Quiz.csproj",
-      "projectName": "Quiz",
-      "projectPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\Quiz.csproj",
+      "projectUniqueName": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj",
+      "projectName": "quizLib",
+      "projectPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj",
       "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quiz\\obj\\",
+      "outputPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {
-            "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj": {
-              "projectPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
