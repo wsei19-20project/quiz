@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiz", "Quiz\Quiz.csproj", "{A0CDC274-8DA4-4C7C-8D4B-510C056F0C9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quizLib", "quizLib\quizLib.csproj", "{21ADFFDC-3ED6-475E-9AE9-C37D7CB86EBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quizLib", "quizLib\quizLib.csproj", "{21ADFFDC-3ED6-475E-9AE9-C37D7CB86EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizek", "Quizek\Quizek.csproj", "{588B9D40-7E3F-49EB-9D37-5AA5C455C43A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{21ADFFDC-3ED6-475E-9AE9-C37D7CB86EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21ADFFDC-3ED6-475E-9AE9-C37D7CB86EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21ADFFDC-3ED6-475E-9AE9-C37D7CB86EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588B9D40-7E3F-49EB-9D37-5AA5C455C43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588B9D40-7E3F-49EB-9D37-5AA5C455C43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588B9D40-7E3F-49EB-9D37-5AA5C455C43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588B9D40-7E3F-49EB-9D37-5AA5C455C43A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

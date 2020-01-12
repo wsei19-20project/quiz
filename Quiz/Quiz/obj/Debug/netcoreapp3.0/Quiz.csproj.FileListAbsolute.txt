@@ -27,3 +27,4 @@ C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quiz\obj\Debug\netcoreapp3.0\Quiz.cspr
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quiz\obj\Debug\netcoreapp3.0\Quiz.dll
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quiz\obj\Debug\netcoreapp3.0\Quiz.pdb
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll

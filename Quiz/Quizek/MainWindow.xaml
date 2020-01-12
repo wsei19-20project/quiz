@@ -1,0 +1,18 @@
+﻿<Window x:Class="Quizek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quizek"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Answer1Btn" Content="Button" HorizontalAlignment="Left" Margin="147,134,0,0" VerticalAlignment="Top" Click="Answer1Btn_Click"/>
+        <Button x:Name="Answer3Btn" Content="Button" HorizontalAlignment="Left" Margin="147,232,0,0" VerticalAlignment="Top" Click="Answer3Btn_Click"/>
+        <Button x:Name="Answer2Btn" Content="Button" HorizontalAlignment="Left" Margin="595,134,0,0" VerticalAlignment="Top" Click="Answer2Btn_Click_1"/>
+        <Button x:Name="Answer4Btn" Content="Button" HorizontalAlignment="Left" Margin="595,232,0,0" VerticalAlignment="Top" Click="Answer4Btn_Click"/>
+        <TextBlock x:Name="questionTxtBlock" HorizontalAlignment="Center" Margin="0,71,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="ResultTxtBlock" HorizontalAlignment="Left" Margin="375,332,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

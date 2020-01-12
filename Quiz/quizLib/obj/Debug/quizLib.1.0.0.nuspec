@@ -14,6 +14,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.dll" target="lib\netcoreapp3.0\quizLib.dll" />
+    <file src="C:\Users\camil\Documents\GitHub\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.dll" target="lib\netcoreapp3.0\quizLib.dll" />
   </files>
 </package>
