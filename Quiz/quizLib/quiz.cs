@@ -34,6 +34,7 @@ namespace quizLib
             var content = client.DownloadString(apiUrl);
 
             var obj = Newtonsoft.Json.JsonConvert.DeserializeObject<Questions>(content);
+            
             return obj;
         }
 

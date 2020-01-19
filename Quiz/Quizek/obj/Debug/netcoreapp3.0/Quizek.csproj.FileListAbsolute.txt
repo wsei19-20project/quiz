@@ -19,3 +19,24 @@ C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.
 C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.csproj.CopyComplete
 C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.dll
 C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.pdb
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\bin\Debug\netcoreapp3.0\Quizek.exe
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\bin\Debug\netcoreapp3.0\Quizek.deps.json
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\bin\Debug\netcoreapp3.0\Quizek.runtimeconfig.json
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\bin\Debug\netcoreapp3.0\Quizek.runtimeconfig.dev.json
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\bin\Debug\netcoreapp3.0\Quizek.dll
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\bin\Debug\netcoreapp3.0\Quizek.pdb
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\bin\Debug\netcoreapp3.0\quizLib.dll
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\bin\Debug\netcoreapp3.0\quizLib.pdb
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.csprojAssemblyReference.cache
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek_MarkupCompile.cache
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek_MarkupCompile.lref
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.g.resources
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.AssemblyInfoInputs.cache
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.AssemblyInfo.cs
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.csproj.CopyComplete
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.dll
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.pdb

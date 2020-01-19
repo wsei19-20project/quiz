@@ -7,12 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Answer1Btn" Content="Button" HorizontalAlignment="Left" Margin="147,134,0,0" VerticalAlignment="Top" Click="Answer1Btn_Click"/>
-        <Button x:Name="Answer3Btn" Content="Button" HorizontalAlignment="Left" Margin="147,232,0,0" VerticalAlignment="Top" Click="Answer3Btn_Click"/>
-        <Button x:Name="Answer2Btn" Content="Button" HorizontalAlignment="Left" Margin="595,134,0,0" VerticalAlignment="Top" Click="Answer2Btn_Click_1"/>
-        <Button x:Name="Answer4Btn" Content="Button" HorizontalAlignment="Left" Margin="595,232,0,0" VerticalAlignment="Top" Click="Answer4Btn_Click"/>
-        <TextBlock x:Name="questionTxtBlock" HorizontalAlignment="Center" Margin="0,71,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock x:Name="ResultTxtBlock" HorizontalAlignment="Left" Margin="375,332,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Resources\grid-bg.jpg"/>
+        </Grid.Background>
+        <Button x:Name="Answer1Btn" Content="Button" HorizontalAlignment="Left" Margin="200,247,0,0" VerticalAlignment="Top" Click="Answer1Btn_Click" Height="20" Width="53"/>
+        <Button x:Name="Answer3Btn" Content="Button" HorizontalAlignment="Left" Margin="200,356,0,0" VerticalAlignment="Top" Click="Answer3Btn_Click" Height="20" Width="53"/>
+        <Button x:Name="Answer2Btn" Content="Button" HorizontalAlignment="Left" Margin="516,247,0,0" VerticalAlignment="Top" Click="Answer2Btn_Click_1" Height="20" Width="53" Panel.ZIndex="1"/>
+        <Button x:Name="Answer4Btn" Content="Button" HorizontalAlignment="Left" Margin="516,356,0,0" VerticalAlignment="Top" Click="Answer4Btn_Click" Height="20" Width="53"/>
+        <TextBlock x:Name="questionTxtBlock" HorizontalAlignment="Left" Margin="412,64,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Panel.ZIndex="100" Height="123" Width="348" Foreground="White" FontWeight="Bold" FontFamily="Arial Black"/>
+        <TextBlock x:Name="ResultTxtBlock" HorizontalAlignment="Left" Margin="710,239,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="50" Foreground="White" FontWeight="Bold" FontFamily="Arial Black"/>
+        <Image Height="232" Width="232" ForceCursor="True" Source="C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Resources\logo.png" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Opacity="0.9" Margin="10,10,0,0" Panel.ZIndex="-1" UseLayoutRounding="True" />
 
     </Grid>
 </Window>
