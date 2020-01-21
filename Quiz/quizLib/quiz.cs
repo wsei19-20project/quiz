@@ -27,10 +27,11 @@ namespace quizLib
             Console.WriteLine("Quiz Liblary");
         }
 
-        public static Questions generateQuestion()
+        public static Questions generateQuestion(string category, string difficulty)
         {
-            string apiUrl = "https://opentdb.com/api.php?amount=1&type=multiple";
+            string apiUrl = $"https://opentdb.com/api.php?amount=1&category={category}&difficulty={difficulty}&type=multiple";
             var client = new WebClient();
+            client.Encoding = System.Text.Encoding.UTF8;
             var content = client.DownloadString(apiUrl);
 
             var obj = Newtonsoft.Json.JsonConvert.DeserializeObject<Questions>(content);

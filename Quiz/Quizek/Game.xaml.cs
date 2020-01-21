@@ -31,7 +31,7 @@ namespace Quizek
 
         public void startGame()
         {
-            var quiz = QuizLib1.generateQuestion();
+            var quiz = QuizLib1.generateQuestion("15","easy");
             questionTxtBlock.Text = QuizLib1.getQuestion(quiz);
             correctAnswer = QuizLib1.getCorrectAnswer(quiz);
             ResultTxtBlock.Text = correctAnswer;
