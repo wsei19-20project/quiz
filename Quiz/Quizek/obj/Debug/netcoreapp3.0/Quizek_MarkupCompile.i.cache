@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\App.xaml
-11151548125
+4-1267602734
 
-31729941893
+61598911266
 194-1356737441
-MainWindow.xaml;
+Game.xaml;MainWindow.xaml;Menu.xaml;Settings.xaml;
 
 True
 

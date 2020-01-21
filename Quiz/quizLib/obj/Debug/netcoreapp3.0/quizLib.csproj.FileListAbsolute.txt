@@ -15,3 +15,4 @@ C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLi
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.dll
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.pdb
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.deps.json
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.csprojAssemblyReference.cache

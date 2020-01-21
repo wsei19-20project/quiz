@@ -40,3 +40,9 @@ C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.csproj.CopyComplete
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.dll
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Quizek.pdb
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Game.g.cs
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Menu.g.cs
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Settings.g.cs
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Game.baml
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Menu.baml
+C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Settings.baml
