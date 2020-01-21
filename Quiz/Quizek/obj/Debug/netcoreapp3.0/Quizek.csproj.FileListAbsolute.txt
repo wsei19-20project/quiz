@@ -46,3 +46,9 @@ C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Setting
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Game.baml
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Menu.baml
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Settings.baml
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Game.g.cs
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Menu.g.cs
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Settings.g.cs
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Game.baml
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Menu.baml
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Settings.baml

@@ -21,10 +21,16 @@ namespace Quizek
     /// </summary>
     public partial class Game : Page
     {
+        public Score points = new Score();
         public string correctAnswer;
         public Game()
         {
             InitializeComponent();
+            startGame();
+        }
+
+        public void startGame()
+        {
             var quiz = QuizLib1.generateQuestion();
             questionTxtBlock.Text = QuizLib1.getQuestion(quiz);
             correctAnswer = QuizLib1.getCorrectAnswer(quiz);
@@ -35,7 +41,6 @@ namespace Quizek
             Answer2Btn.Content = answers[1];
             Answer3Btn.Content = answers[2];
             Answer4Btn.Content = answers[3];
-
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -46,34 +51,62 @@ namespace Quizek
         private void Answer1Btn_Click(object sender, RoutedEventArgs e)
         {
             if ((string)Answer1Btn.Content == correctAnswer)
+            {
                 ResultTxtBlock.Text = "Win";
+                points.addPoint();
+                startGame();
+            }
             else
-                ResultTxtBlock.Text = "Lose";
+            {
+                ResultTxtBlock.Text = "Lose" + points.getPoints();
+                points.clearPoints();
+            }
 
         }
 
         private void Answer2Btn_Click_1(object sender, RoutedEventArgs e)
         {
             if ((string)Answer2Btn.Content == correctAnswer)
+            {
                 ResultTxtBlock.Text = "Win";
+                points.addPoint();
+                startGame();
+            }
             else
-                ResultTxtBlock.Text = "Lose";
+            {
+                ResultTxtBlock.Text = "Lose" + points.getPoints();
+                points.clearPoints();
+            }
         }
 
         private void Answer3Btn_Click(object sender, RoutedEventArgs e)
         {
             if ((string)Answer3Btn.Content == correctAnswer)
+            {
                 ResultTxtBlock.Text = "Win";
+                points.addPoint();
+                startGame();
+            }
             else
-                ResultTxtBlock.Text = "Lose";
+            {
+                ResultTxtBlock.Text = "Lose" + points.getPoints();
+                points.clearPoints();
+            }
         }
 
         private void Answer4Btn_Click(object sender, RoutedEventArgs e)
         {
             if ((string)Answer4Btn.Content == correctAnswer)
+            {
                 ResultTxtBlock.Text = "Win";
+                points.addPoint();
+                startGame();
+            }
             else
-                ResultTxtBlock.Text = "Lose";
+            {
+                ResultTxtBlock.Text = "Lose" + points.getPoints();
+                points.clearPoints();
+            }
         }
     }
 }
