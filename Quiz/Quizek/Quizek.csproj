@@ -7,7 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\grid-bg.jpg" />
+    <None Remove="Images\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\quizLib\quizLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\grid-bg.jpg" />
+    <Resource Include="Images\logo.png" />
   </ItemGroup>
 
 </Project>

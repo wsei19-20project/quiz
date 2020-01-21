@@ -10,7 +10,6 @@ C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\libs\netcoreapp3.0\quizLib.deps.j
 C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\libs\netcoreapp3.0\quizLib.dll
 C:\Users\camil\Documents\GitHub\quiz\Quiz\Quiz\libs\netcoreapp3.0\quizLib.pdb
 C:\Users\camil\Documents\GitHub\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.deps.json
-C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.csprojAssemblyReference.cache
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.AssemblyInfoInputs.cache
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.AssemblyInfo.cs
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\quizLib\obj\Debug\netcoreapp3.0\quizLib.dll
