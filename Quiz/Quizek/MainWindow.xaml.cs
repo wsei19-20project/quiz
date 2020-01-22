@@ -37,5 +37,6 @@ namespace Quizek
         {
             Main.Content = new MainWindow();
         }
+
     }
 }

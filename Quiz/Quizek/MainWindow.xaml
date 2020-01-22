@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Quizek"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -18,10 +19,13 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Top">
             <Button Content="Game" Height="20" Width="60" Click="BtnClickGame"></Button>
             <Button Content="Settings" Height="20" Width="60" Click="BtnClickSettings"></Button>
-            <Button Content="Menu" Height="20" Width="60" Click="BtnClickMain"></Button>
+            <Button Content="Menu" Height="20" Width="60" Click="BtnClickMenu"></Button>
             <Button Content="MAIN WINDOW" Height="20" Width="200" Click="BtnClickGame" HorizontalContentAlignment="Center" Margin="50, 0, 0, 0"></Button>
         </StackPanel>
 
-       
+        <Image Height="232" Width="232" ForceCursor="True" Source="/Images/logo.png" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Opacity="0.9" Margin="10,10,0,0" Panel.ZIndex="-1" UseLayoutRounding="True" />
+
+
+
     </Grid>
 </Window>
