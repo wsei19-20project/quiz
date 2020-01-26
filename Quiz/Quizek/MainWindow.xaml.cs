@@ -20,7 +20,7 @@ namespace Quizek
     {
         private void BtnClickGame(object sender, RoutedEventArgs e)
         {
-            Main.Content = new Game();
+            //Main.Content = new Game();
         }
 
         private void BtnClickSettings(object sender, RoutedEventArgs e)

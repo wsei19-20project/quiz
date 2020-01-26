@@ -27,7 +27,17 @@ namespace Quizek
         {
             Window window = Window.GetWindow(this);
 
-            window.Content = new Game();
+            string difficulty = "easy";
+            string category = "15";
+
+            if (EasyBtn.IsChecked == true)
+                difficulty = "easy";
+            else if (MediumBtn.IsChecked == true)
+                difficulty = "medium";
+            else if (HardBtn.IsChecked == true)
+                difficulty = "hard";
+
+            window.Content = new Game(category, difficulty);
         }
     }
 }

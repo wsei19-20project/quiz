@@ -11,7 +11,7 @@ namespace Quiz
             QuizMenager q1 = new QuizMenager();
             //var questions = q1.getQuestion();
             //q1.playQuiz(questions);
-            var q = QuizLib1.generateQuestion();
+            var q = QuizLib1.generateQuestion("","");
 
             string[] answersArray = new string[4] { q.results[0].correct_answer, q.results[0].incorrect_answers[0], q.results[0].incorrect_answers[1], q.results[0].incorrect_answers[2] };
             int index;

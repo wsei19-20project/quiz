@@ -21,17 +21,21 @@ namespace Quizek
     /// </summary>
     public partial class Game : Page
     {
+        public string category;
+        public string difficulty;
         public Score points = new Score();
         public string correctAnswer;
-        public Game()
+        public Game(string Category, string Difficulty)
         {
+            this.category = Category;
+            this.difficulty = Difficulty;
             InitializeComponent();
             startGame();
         }
 
         public void startGame()
         {
-            var quiz = QuizLib1.generateQuestion("15","easy");
+            var quiz = QuizLib1.generateQuestion(category, difficulty);
             questionTxtBlock.Text = QuizLib1.getQuestion(quiz);
             correctAnswer = QuizLib1.getCorrectAnswer(quiz);
             ResultTxtBlock.Text = correctAnswer;

@@ -9,6 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quizLib", "quizLib\quizLib.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizek", "Quizek\Quizek.csproj", "{588B9D40-7E3F-49EB-9D37-5AA5C455C43A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestQuiz", "UnitTestQuiz\UnitTestQuiz.csproj", "{811D4A1E-90AC-41B6-B6F0-237F7703830D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21ADFFDC-3ED6-475E-9AE9-C37D7CB86EBA} = {21ADFFDC-3ED6-475E-9AE9-C37D7CB86EBA}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +32,10 @@ Global
 		{588B9D40-7E3F-49EB-9D37-5AA5C455C43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{588B9D40-7E3F-49EB-9D37-5AA5C455C43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{588B9D40-7E3F-49EB-9D37-5AA5C455C43A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811D4A1E-90AC-41B6-B6F0-237F7703830D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811D4A1E-90AC-41B6-B6F0-237F7703830D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811D4A1E-90AC-41B6-B6F0-237F7703830D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811D4A1E-90AC-41B6-B6F0-237F7703830D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
