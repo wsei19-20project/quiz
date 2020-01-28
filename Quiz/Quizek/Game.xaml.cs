@@ -16,9 +16,7 @@ using System.Windows.Shapes;
 
 namespace Quizek
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class Game : Page
     {
         public string category;
@@ -40,106 +38,75 @@ namespace Quizek
             var quiz = QuizLib1.generateQuestion(category, difficulty);
             questionTxtBlock.Text = QuizLib1.getQuestion(quiz);
             correctAnswer = QuizLib1.getCorrectAnswer(quiz); 
-            ResultTxtBlock.Text = correctAnswer;
 
             currentQuestion = questionNumber.getQuestionNo();       
             questionNumber.questionIncrease();
-            questionNo.Text = currentQuestion.ToString();   
             
             string[] answers = QuizLib1.getAnswers(quiz);
             Answer1Btn.Content = answers[0];
             Answer2Btn.Content = answers[1];
             Answer3Btn.Content = answers[2];
             Answer4Btn.Content = answers[3];
-        }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
+            DeathCounter();
         }
 
         private void Answer1Btn_Click(object sender, RoutedEventArgs e)
         {
-            if ((string)Answer1Btn.Content == correctAnswer)
+            if ((string)Answer1Btn.Content != correctAnswer)
             {
-                ResultTxtBlock.Text = "Win";
-                points.addPoint();
-            }
-            else
-            {
-                ResultTxtBlock.Text = "Lose" + points.getPoints();
                 points.decreasePoint();
-
+                
             }
 
             if (currentQuestion < 9)
                 startGame();
             else
-                endGame();
+                EndGame();
 
         }
 
         private void Answer2Btn_Click_1(object sender, RoutedEventArgs e)
         {
-            if ((string)Answer2Btn.Content == correctAnswer)
+            if ((string)Answer2Btn.Content != correctAnswer)
             {
-                ResultTxtBlock.Text = "Win";
-                points.addPoint();
-            }
-            else
-            {
-                ResultTxtBlock.Text = "Lose" + points.getPoints();
                 points.decreasePoint();
-
             }
 
             if (currentQuestion < 9)
                 startGame();
             else
-                endGame();
+                EndGame();
 
         }
 
         private void Answer3Btn_Click(object sender, RoutedEventArgs e)
         {
-            if ((string)Answer3Btn.Content == correctAnswer)
+            if ((string)Answer3Btn.Content != correctAnswer)
             {
-                ResultTxtBlock.Text = "Win";
-                points.addPoint();
-            }
-            else
-            {
-                ResultTxtBlock.Text = "Lose" + points.getPoints();
                 points.decreasePoint();
-
+                
             }
 
             if (currentQuestion < 9)
                 startGame();
             else
-                endGame();
+                EndGame();
 
         }
 
         private void Answer4Btn_Click(object sender, RoutedEventArgs e)
         {
-            if ((string)Answer4Btn.Content == correctAnswer)
+            if ((string)Answer4Btn.Content != correctAnswer)
             {
-                ResultTxtBlock.Text = "Win";
-                points.addPoint();
-            }
-            else
-            {
-                ResultTxtBlock.Text = "Lose" + points.getPoints();
                 points.decreasePoint();
-
+                
             }
 
             if (currentQuestion < 9)
                 startGame();
             else
-                endGame();
-
+                EndGame();
         }
 
         private void backToMenu(object sender, RoutedEventArgs e)
@@ -149,9 +116,27 @@ namespace Quizek
             window.Content = new Menu();
         }
 
-        private void endGame()
+        public void DeathCounter()
         {
-            if(points.getPoints() > 8)
+            if (points.getPoints() == 2)
+            {
+                this.Life3.Visibility = Visibility.Hidden;
+            }
+            else if (points.getPoints() == 1)
+            {
+                this.Life2.Visibility = Visibility.Hidden;
+            }
+            else if (points.getPoints() == 0)
+            {
+                this.Life3.Visibility = Visibility.Visible;
+                this.Life2.Visibility = Visibility.Visible;
+                EndGame();
+            }
+        }
+
+        private void EndGame()
+        {
+            if(points.getPoints() > 0)
             {
                 Window window = Window.GetWindow(this);
 

@@ -6,11 +6,11 @@ namespace quizLib
 {
     public class Score
     {
-        public int Points=0;
+        public int Points = 3;
 
         public Score()
         {
-            Points = 0;
+            Points = 3;
         }
 
         public void addPoint()
@@ -23,7 +23,7 @@ namespace quizLib
         }
         public void clearPoints()
         {
-            Points = 0;
+            Points = 3;
         }
         public int getPoints()
         {

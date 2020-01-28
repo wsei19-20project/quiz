@@ -13,9 +13,6 @@ using System.Windows.Shapes;
 
 namespace Quizek
 {
-    /// <summary>
-    /// Interaction logic for ScoreScreen.xaml
-    /// </summary>
     public partial class ScoreScreen : Page
     {
         public ScoreScreen(string endscore)
@@ -27,7 +24,7 @@ namespace Quizek
                 this.success.Visibility = Visibility.Visible;
                 this.textResult.Text = "YOU WIN!";
             }
-            else
+            else if (endscore == "lose")
             {
                 this.success.Visibility = Visibility.Hidden;
                 this.fail.Visibility = Visibility.Visible;

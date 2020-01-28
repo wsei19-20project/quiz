@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <None Remove="Images\grid-bg.jpg" />
+    <None Remove="Images\heart.png" />
+    <None Remove="Images\hrt.png" />
     <None Remove="Images\logo.png" />
     <None Remove="Images\Untitled-1.png" />
     <None Remove="Images\Untitled-2.png" />
@@ -19,6 +21,9 @@
 
   <ItemGroup>
     <Resource Include="Images\grid-bg.jpg" />
+    <Resource Include="Images\hrt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Images\logo.png" />
     <Resource Include="Images\Untitled-1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
