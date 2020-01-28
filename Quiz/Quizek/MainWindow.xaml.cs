@@ -32,7 +32,10 @@ namespace Quizek
         {
             Main.Content = new Menu();
         }
-
+        private void BtnClickScore(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new ScoreScreen();
+        }
         private void BtnClickMain(object sender, RoutedEventArgs e)
         {
             Main.Content = new MainWindow();

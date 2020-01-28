@@ -112,5 +112,12 @@ namespace Quizek
                 points.clearPoints();
             }
         }
+
+        private void backToMenu(object sender, RoutedEventArgs e)
+        {
+            Window window = Window.GetWindow(this);
+
+            window.Content = new Menu();
+        }
     }
 }

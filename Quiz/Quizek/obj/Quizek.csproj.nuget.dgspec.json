@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quizek\\Quizek.csproj": {}
+    "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quizek\\Quizek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quizek\\Quizek.csproj": {
+    "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quizek\\Quizek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quizek\\Quizek.csproj",
+        "projectUniqueName": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quizek\\Quizek.csproj",
         "projectName": "Quizek",
-        "projectPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quizek\\Quizek.csproj",
-        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\Quizek\\obj\\",
+        "projectPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quizek\\Quizek.csproj",
+        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\Quizek\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj": {
-                "projectPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj"
+              "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj": {
+                "projectPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj"
               }
             }
           }
@@ -63,17 +66,20 @@
         }
       }
     },
-    "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj": {
+    "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj",
+        "projectUniqueName": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj",
         "projectName": "quizLib",
-        "projectPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\quizLib.csproj",
-        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\camil\\Documents\\GitHub\\quiz\\Quiz\\quizLib\\obj\\",
+        "projectPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\quizLib.csproj",
+        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Master\\Desktop\\C# quiz\\quiz\\Quiz\\quizLib\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

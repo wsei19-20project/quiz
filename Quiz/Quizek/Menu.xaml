@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Quizek"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="600" d:DesignWidth="800"
       Title="Menu">
 
     <Page.Resources>
@@ -80,10 +80,18 @@
         <Grid.Background>
             <ImageBrush ImageSource="/images/grid-bg.jpg"/>
         </Grid.Background>
-        <Button Style="{DynamicResource ButtonStyleMenu}" x:Name="NGBtn" Content="NEW GAME" HorizontalAlignment="Left" Margin="472,59,0,0" VerticalAlignment="Top" Height="50" Width="300" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Unispace" FontSize="36" Click="newSettings" />
-        <Button Style="{DynamicResource ButtonStyleMenu}" x:Name="ExitBtn" Content="EXIT" HorizontalAlignment="Left" Margin="522,155,0,0" VerticalAlignment="Top" Height="50" Width="200" FontFamily="Unispace" FontSize="36" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Grid x:Name="menuGrid">
+            <Button Style="{DynamicResource ButtonStyleMenu}" x:Name="NGBtn" Content="NEW GAME" HorizontalAlignment="Left" Margin="439,126,0,0" VerticalAlignment="Top" Height="50" Width="300" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Unispace" FontSize="36" Click="newSettings" />
+            <Button Style="{DynamicResource ButtonStyleMenu}" x:Name="ExitBtn" Content="EXIT" HorizontalAlignment="Left" Margin="489,222,0,0" VerticalAlignment="Top" Height="50" Width="200" FontFamily="Unispace" FontSize="36" Background="{x:Null}" BorderBrush="{x:Null}" Click="BtnClose_Click"/>
 
-        <Image Height="232" Width="232" ForceCursor="True" Source="/Images/logo.png" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Opacity="0.9" Margin="10,10,0,0" Panel.ZIndex="-1" UseLayoutRounding="True" />
+        </Grid>
+        <Image Height="232" Width="232" ForceCursor="True" Source="/Images/logo.png" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Opacity="0.9" Margin="65,81,0,0" Panel.ZIndex="-1" UseLayoutRounding="True" />
+
+        <Grid x:Name="quitGrid" Visibility="Hidden">
+            <TextBlock HorizontalAlignment="Left" Margin="466,139,0,0" Text="ARE YOU SURE?" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF9692DE" FontSize="18" FontWeight="Bold" FontFamily="Unispace" Width="Auto" />
+            <Button Style="{DynamicResource ButtonStyleMenu}" x:Name="yes" Content="YES" HorizontalAlignment="Left" Margin="481,189,0,0" VerticalAlignment="Top" Height="50" Width="300" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Unispace" FontSize="36" Click="kill" />
+            <Button Style="{DynamicResource ButtonStyleMenu}" x:Name="no" Content="NO" HorizontalAlignment="Left" Margin="315,189,0,0" VerticalAlignment="Top" Height="50" Width="200" FontFamily="Unispace" FontSize="36" Background="{x:Null}" BorderBrush="{x:Null}" Click="goBackToMenu"/>
+        </Grid>
 
     </Grid>
 </Page>
