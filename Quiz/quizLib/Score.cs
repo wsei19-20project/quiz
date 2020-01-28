@@ -17,6 +17,10 @@ namespace quizLib
         {
             Points++;
         }
+        public void decreasePoint()
+        {
+            Points--;
+        }
         public void clearPoints()
         {
             Points = 0;

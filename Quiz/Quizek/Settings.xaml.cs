@@ -27,8 +27,8 @@ namespace Quizek
         {
             Window window = Window.GetWindow(this);
 
-            string difficulty = "easy";
-            string category = "15";
+            string difficulty = "";
+            string category = "";
 
             if (EasyBtn.IsChecked == true)
                 difficulty = "easy";
@@ -36,6 +36,20 @@ namespace Quizek
                 difficulty = "medium";
             else if (HardBtn.IsChecked == true)
                 difficulty = "hard";
+
+            if (cat_9.IsChecked == true)
+                category = "9";
+            else if (cat_18.IsChecked == true)
+                category = "18";
+            else if (cat_21.IsChecked == true)
+                category = "21";
+            else if (cat_23.IsChecked == true)
+                category = "23";
+            else if (cat_24.IsChecked == true)
+                category = "24";
+            else if (cat_28.IsChecked == true)
+                category = "28";
+
 
             window.Content = new Game(category, difficulty);
         }

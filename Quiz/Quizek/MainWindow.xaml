@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Quizek"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800" ResizeMode="NoResize">
+        Title="MainWindow" Height="600" Width="800" ResizeMode="NoResize" KeyUp="Window_KeyUp">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -15,7 +15,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/images/grid-bg.jpg"/>
         </Grid.Background>
-        <Frame x:Name="Main" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="Main" NavigationUIVisibility="Hidden" KeyUp="Main_KeyUp"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Top">
             <Button Content="Game" Height="20" Width="60" Click="BtnClickGame"></Button>
             <Button Content="Settings" Height="20" Width="60" Click="BtnClickSettings"></Button>
@@ -24,7 +24,8 @@
             <Button Content="MAIN WINDOW" Height="20" Width="200" Click="BtnClickGame" HorizontalContentAlignment="Center" Margin="50, 0, 0, 0"></Button>
         </StackPanel>
 
-        <Image Height="232" Width="232" ForceCursor="True" Source="/Images/logo.png" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Opacity="0.9" Margin="10,10,0,0" Panel.ZIndex="-1" UseLayoutRounding="True" />
+        <Image Height="232" Width="232" ForceCursor="True" Source="/Images/logo.png" VerticalAlignment="Top" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Opacity="0.9" Margin="0,101,0,0" Panel.ZIndex="-1" UseLayoutRounding="True" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,316,0,0" Text="PRESS ANY KEY TO START" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF9692DE" FontSize="18" FontWeight="Bold" FontFamily="Unispace" Width="Auto" x:Name="presskey" />
 
 
 

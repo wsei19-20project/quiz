@@ -18,30 +18,22 @@ namespace Quizek
     /// </summary>
     public partial class ScoreScreen : Page
     {
-        public ScoreScreen()
+        public ScoreScreen(string endscore)
         {
             InitializeComponent();
-        }
+            if (endscore == "win")
+            {
+                this.fail.Visibility = Visibility.Hidden;
+                this.success.Visibility = Visibility.Visible;
+                this.textResult.Text = "YOU WIN!";
+            }
+            else
+            {
+                this.success.Visibility = Visibility.Hidden;
+                this.fail.Visibility = Visibility.Visible;
+                this.textResult.Text = "YOU LOSE!";
+            }
 
-        private void newScoreScreen(object sender, RoutedEventArgs e)
-        {
-            Window window = Window.GetWindow(this);
-
-            window.Content = new ScoreScreen();
-        }
-
-        private void loser(object sender, RoutedEventArgs e)
-        {
-            this.success.Visibility = Visibility.Hidden;
-            this.fail.Visibility = Visibility.Visible;
-            this.textResult.Text = "YOU LOSE!";
-        }
-
-        private void winner(object sender, RoutedEventArgs e)
-        {
-            this.fail.Visibility = Visibility.Hidden;
-            this.success.Visibility = Visibility.Visible;
-            this.textResult.Text = "YOU WIN!";
         }
 
         private void backToMenu(object sender, RoutedEventArgs e)

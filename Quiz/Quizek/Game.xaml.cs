@@ -23,8 +23,10 @@ namespace Quizek
     {
         public string category;
         public string difficulty;
+        public QuestionNo questionNumber = new QuestionNo();
         public Score points = new Score();
         public string correctAnswer;
+        public int currentQuestion;
         public Game(string Category, string Difficulty)
         {
             this.category = Category;
@@ -37,9 +39,13 @@ namespace Quizek
         {
             var quiz = QuizLib1.generateQuestion(category, difficulty);
             questionTxtBlock.Text = QuizLib1.getQuestion(quiz);
-            correctAnswer = QuizLib1.getCorrectAnswer(quiz);
+            correctAnswer = QuizLib1.getCorrectAnswer(quiz); 
             ResultTxtBlock.Text = correctAnswer;
 
+            currentQuestion = questionNumber.getQuestionNo();       
+            questionNumber.questionIncrease();
+            questionNo.Text = currentQuestion.ToString();   
+            
             string[] answers = QuizLib1.getAnswers(quiz);
             Answer1Btn.Content = answers[0];
             Answer2Btn.Content = answers[1];
@@ -58,13 +64,18 @@ namespace Quizek
             {
                 ResultTxtBlock.Text = "Win";
                 points.addPoint();
-                startGame();
             }
             else
             {
                 ResultTxtBlock.Text = "Lose" + points.getPoints();
-                points.clearPoints();
+                points.decreasePoint();
+
             }
+
+            if (currentQuestion < 9)
+                startGame();
+            else
+                endGame();
 
         }
 
@@ -74,13 +85,19 @@ namespace Quizek
             {
                 ResultTxtBlock.Text = "Win";
                 points.addPoint();
-                startGame();
             }
             else
             {
                 ResultTxtBlock.Text = "Lose" + points.getPoints();
-                points.clearPoints();
+                points.decreasePoint();
+
             }
+
+            if (currentQuestion < 9)
+                startGame();
+            else
+                endGame();
+
         }
 
         private void Answer3Btn_Click(object sender, RoutedEventArgs e)
@@ -89,13 +106,19 @@ namespace Quizek
             {
                 ResultTxtBlock.Text = "Win";
                 points.addPoint();
-                startGame();
             }
             else
             {
                 ResultTxtBlock.Text = "Lose" + points.getPoints();
-                points.clearPoints();
+                points.decreasePoint();
+
             }
+
+            if (currentQuestion < 9)
+                startGame();
+            else
+                endGame();
+
         }
 
         private void Answer4Btn_Click(object sender, RoutedEventArgs e)
@@ -104,13 +127,19 @@ namespace Quizek
             {
                 ResultTxtBlock.Text = "Win";
                 points.addPoint();
-                startGame();
             }
             else
             {
                 ResultTxtBlock.Text = "Lose" + points.getPoints();
-                points.clearPoints();
+                points.decreasePoint();
+
             }
+
+            if (currentQuestion < 9)
+                startGame();
+            else
+                endGame();
+
         }
 
         private void backToMenu(object sender, RoutedEventArgs e)
@@ -118,6 +147,26 @@ namespace Quizek
             Window window = Window.GetWindow(this);
 
             window.Content = new Menu();
+        }
+
+        private void endGame()
+        {
+            if(points.getPoints() > 8)
+            {
+                Window window = Window.GetWindow(this);
+
+                window.Content = new ScoreScreen("win");
+                questionNumber.questionClear();
+                points.clearPoints();
+            }
+            else
+            {
+                Window window = Window.GetWindow(this);
+
+                window.Content = new ScoreScreen("lose");
+                questionNumber.questionClear();
+
+            }
         }
     }
 }
