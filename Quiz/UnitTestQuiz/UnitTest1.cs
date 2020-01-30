@@ -7,7 +7,7 @@ namespace UnitTestQuiz
     public class QuizTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void QuizMethod1()
         {
             string diff = "easy";
             string cat = "15";

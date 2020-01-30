@@ -4,6 +4,9 @@ using System.Text;
 
 namespace quizLib
 {
+    /// <summary>
+    /// Contains all methods for question number
+    /// </summary>
     public class QuestionNo
     {
         public int CurrentQuestion = 0;

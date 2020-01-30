@@ -10,6 +10,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Media;
+using System.ComponentModel;
 
 namespace Quizek
 {
@@ -20,5 +22,6 @@ namespace Quizek
             presskey.Visibility = Visibility.Hidden;
             Main.Content = new Menu();
         }
+
     }
 }

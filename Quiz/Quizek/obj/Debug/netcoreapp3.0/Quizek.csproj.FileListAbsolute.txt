@@ -54,3 +54,5 @@ C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Menu.ba
 C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\Settings.baml
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\ScoreScreen.g.cs
 C:\Users\Master\Desktop\C# quiz\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\ScoreScreen.baml
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\ScoreScreen.g.cs
+C:\Users\camil\Documents\GitHub\quiz\Quiz\Quizek\obj\Debug\netcoreapp3.0\ScoreScreen.baml

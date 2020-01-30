@@ -4,6 +4,9 @@ using System.Text;
 
 namespace quizLib
 {
+    /// <summary>
+    /// Contains all methods for Score(lifes)
+    /// </summary>
     public class Score
     {
         public int Points = 3;
